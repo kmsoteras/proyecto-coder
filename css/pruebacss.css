@@ -1,0 +1,125 @@
+.navbar {
+  font-family: var(--font-family); }
+
+.nav-nav {
+  color: var(--color-primary); }
+
+.mi-color {
+  background-color: var(--color-primary);
+  color: #fff;
+  padding: 10px;
+  font-family: var(--font-family); }
+
+.btn btn-outline-success {
+  background: #7a4190; }
+
+.footer {
+  position: relative;
+  --padding-container: 160px 0 50px ; }
+
+.footer::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  background: #fff;
+  top: 0;
+  left: 0; }
+
+.footer__container container {
+  display: grid;
+  grid-template-columns: repeat(2 1fr);
+  gap: 20px;
+  place-items: center;
+  margin-bottom: 100px; }
+
+.footer__copy {
+  margin: 30px, 0, 0, 30px;
+  padding-top: 50px;
+  font-size: 20px;
+  color: #7a4190;
+  display: inline-flex;
+  align-content: center; }
+
+.footer__icon {
+  width: 40px; }
+
+.footer__social {
+  display: inline-block;
+  width: 80px;
+  align-content: center; }
+
+.titulo {
+  font-family: "Poppins";
+  color: #7a4190;
+  font-size: 1.5em;
+  position: relative;
+  padding: 25px; }
+
+.news-letter-section section-pb {
+  font-family: "Poppins";
+  color: #7a4190;
+  font-size: 1.5em; }
+
+.news-letter-form d-flex {
+  font-family: "Poppins";
+  color: #7a4190;
+  font-size: 1.5em; }
+
+
+  .footer {
+    position: relative;
+    --padding-container: 160px 0 50px ;
+  }
+  
+  .footer::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    background: #fff;
+    top: 0;
+    left: 0;
+  }
+  
+  .footer__container container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: repeat(1fr2);
+        grid-template-columns: repeat(2 1fr);
+    gap: 20px;
+    place-items: center;
+    margin-bottom: 100px;
+  }
+  
+  .footer__copy {
+    margin: 30px, 0, 0, 30px;
+    padding-top: 50px;
+    font-size: 20px;
+    color: #7a4190;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -ms-flex-line-pack: center;
+        align-content: center;
+  }
+  
+  .footer__icon {
+    width: 40px;
+  }
+  
+  .footer__social {
+    display: inline-block;
+    width: 80px;
+    -ms-flex-line-pack: center;
+        align-content: center;
+  }
+  
+  .titulo {
+    font-family: "Poppins";
+    color: #7a4190;
+    font-size: 1.5em;
+    position: relative;
+    padding: 25px;
+  }
+  

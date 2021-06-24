@@ -1,0 +1,33 @@
+@import "tipografia";
+@import "navbar";
+@import "colores";
+@import "footer";
+
+
+.titulo {
+    font-family: $tipography;
+    color: $primaryColor;
+    font-size: $titleFontSize;
+    position: relative;
+    padding: 25px;
+}
+
+.pagination justify-content-center {
+    font-family: $tipography;
+    color: $primaryColor;
+}
+
+.blog-content {
+    font-family: $tipography;
+    color: $primaryColor;
+}
+.news-letter-section section-pb {
+    font-family: $tipography;
+    color: $primaryColor;
+    font-size: $titleFontSize;
+}
+.news-letter-form d-flex {
+    font-family: $tipography;
+    color: $primaryColor;
+    font-size: $titleFontSize;
+}
